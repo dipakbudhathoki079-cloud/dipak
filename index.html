@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ディパックのウェブサイト</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header class="gita-header">
+        <div class="container nav-bar">
+
+            <h1 class="logo">dipak.webdeveloper</h1>
+
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="https://www.facebook.com/friends?locale=ja_JP"
+                           class="fb-btn" target="_blank">Facebook</a>
+                    </li>
+                    <li><a href="#about">概要</a></li>
+                    <li><a href="#services">事業内容</a></li>
+                    <li><a href="#portfolio">ポートフォリオ</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+
+            <h2>人生の成功</h2>
+
+            <p>
+                人生で成功するためには、
+                最初に何か大きなことに挑戦しなければなりません。
+            </p>
+
+            <a href="#contact" class="contact-btn">
+                お問い合わせはこちら
+            </a>
+
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container about-grid">
+
+            <div>
+                <h2>自己紹介</h2>
+
+                <p>
+                    私は毎日学校へ行きます。<br>
+                    学校で日本語とプログラミングを勉強しています。<br>
+                    勉強は難しいですが、とても楽しいです。<br>
+                    将来は優秀なWebエンジニアになりたいです。
+                </p>
+            </div>
+
+            <img src="C:\Users\user\Desktop\html 4\IMG\IMG_1067.JPG"
+                 alt="自己紹介の写真">
+
+        </div>
+    </section>
+
+    <section id="services" class="services section">
+        <div class="container">
+
+            <h2>サービス紹介</h2>
+
+            <div class="services-grid">
+
+                <div class="services-card">
+                    <h3>Webデザイン</h3>
+                    <p>
+                        パソコンやスマートフォンなど、
+                        すべてのデバイスに対応した
+                        Webサイトをデザインします。
+                    </p>
+                </div>
+
+                <div class="services-card">
+                    <h3>フロントエンド開発</h3>
+                    <p>
+                        HTML、CSS、JavaScriptを使って、
+                        見やすく使いやすいWebサイトを作ります。
+                    </p>
+                </div>
+
+                <div class="services-card">
+                    <h3>サポート</h3>
+                    <p>
+                        お客様やチームのメンバーと協力し、
+                        問題解決や作業のサポートをします。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+
+            <h2>自分の紹介</h2>
+
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item">
+                    <h3>自分について</h3>
+                    <p>私のプロフィールを紹介します。</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>今まで頑張ったこと</h3>
+                    <p>学校やアルバイトで努力したことです。</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>未来の夢</h3>
+                    <p>将来の目標はWebエンジニアになることです。</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+
+            <h2>お問い合わせ</h2>
+
+            <form id="contactform" class="contact-form">
+
+                <input type="text" id="name"
+                       placeholder="氏名" required>
+
+                <input type="email" id="email"
+                       placeholder="メールアドレス" required>
+
+                <textarea id="message"
+                          placeholder="ご質問を入力してください"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    送信する
+                </button>
+
+                <p id="formmessage"></p>
+
+            </form>
+
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
