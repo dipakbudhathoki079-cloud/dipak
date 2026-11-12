@@ -97,7 +97,7 @@ body {
 
 .about-grid img {
     width: 50%;
-    max-width: 400px;
+    max-width: 200px;
     border-radius:50%;
     object-fit: cover;
 }
